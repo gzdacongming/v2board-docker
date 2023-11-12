@@ -2,6 +2,7 @@ version: '3'
 services:
   www:
     image: tokumeikoi/lcrp
+    container_name: v2board
     volumes:
       - './www:/www'
       - './wwwlogs:/wwwlogs'
